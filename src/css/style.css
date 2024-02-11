@@ -12,17 +12,26 @@
 }
 
 
-*{
-    margin: 0;
+* {
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-
-body{
-    background-image: url("/images/bg-pattern-desktop.svg");
-    background-color: var(--gradient-one);
-    height: 100vh;
-    width: 100vh;
-}
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
+  body {
+    
+    
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+  }

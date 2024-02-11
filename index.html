@@ -17,41 +17,31 @@
 </head>
 <body>
       <main>
-        
-          <div class="logo">
-            <img src="./images/logo.svg" alt="base-appel-logo">
-          </div>
-          <div class="img-container">
-            <img src="./images/hero-desktop.jpg" alt="hero-desktop" id="hero-desktop">
-          </div>
-          <div class="announcement">
-            <h1>
-              <span class="color-title">
-                WE ' RE <br>
-              </span>
-                <span class="sec-announcement">
-                  COMING <br>
-                  SOON
-                </span>
-            </h1>
-            <p class="info-p">
-              Hello fellow shoppers! We're currently building our new fashion store,
-              Add your email below to stay up-to-date with announcements and our
-              launch deals.
-            </p>
+       
+          <header class="header">
+            <img src="./images/logo.svg" alt="logo" class="logo">
+          </header>
+          <section class="container">
+            <div class="card-left">
+              <h1 class="title">We're <br> <span> coming <br> soon</span></h1>
 
-            <form action="#" method="post">
-              <div class="form-part">
-                <input type="email" name="email" id="e-mail" placeholder="Email Address">
-                <img src="./images/icon-error.svg" alt="icon-error" class="icon-error">
-              </div>
-              <button type="submit" id="submit">
-                <img src="./images/icon-arrow.svg" alt="icon-arrow" srcset="">
-              </button>
-            </form>
-
-          </div>
-      </main>
+              <p> Hello fellow shoppers! We're currently building our new fashion store.
+                Add your email below to stay up-to-date with announcements and our launch deals.</p>
+      
+              <form class="form" action="#">
+                <input id="input" name='Email' id="Email" value="" type="email" placeholder="Email Address">
+                <img src="./images/icon-error.svg" id="error-icon" alt="error-icon">
+                <button id="button"><img src="./images/icon-arrow.svg" alt="arrow-icon"></button>
+                <p class="error">Please provide a valid email</p>
+                <p class="sucess">Sent with success</p>
+              </form>
+            </div>
+            <div class="card-right">
+             <img src="./images/hero-desktop.jpg" alt="hero-pic">
+            </div>
+      
+          </section>
+        </main>
   
 
 
