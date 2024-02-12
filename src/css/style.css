@@ -95,3 +95,65 @@ html, body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.e-mail-group{
+  margin-top: 2.5rem;
+  height: 3rem;
+  position: relative;
+}
+
+.e-mail-group #input{
+  border: 1px solid var(--red-light);
+  border-radius: 2rem;
+  color: var(--red-light);
+  padding: 0.2rem 1.5rem;
+  height: 100%;
+  width: 70%;
+}
+
+input::placeholder {
+  color: var(--red-light);
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+.e-mail-group #submit{
+  background: linear-gradient(90deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  border: 0;
+  border-radius: 2rem;
+  box-shadow: 0 5px 20px 3px hsl(0, 80%, 86%);
+  position: absolute;
+  height: 100%;
+  width: 5rem;
+  top: 0;
+  cursor: pointer;
+}
+
+
+
+.error {
+  color: var(--red) !important;
+  margin: 0;
+  margin-top: 0.5rem !important;
+  margin-left: 1rem;
+  text-align: left;
+}
+
+.sucess {
+  color: #44d838 !important;
+  margin: 0;
+  margin-top: 0.5rem !important;
+  margin-left: 1rem;
+  text-align: left;
+}
+
+.error-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5.8rem;
+  display: none;
+}
