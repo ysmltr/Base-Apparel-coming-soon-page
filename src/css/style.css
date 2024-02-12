@@ -59,7 +59,7 @@ html, body {
   }
   
   .card-left h1 {
-    font-size: 4rem;
+    font-size: 3.8rem;
     text-transform: uppercase;
     font-weight: 300;
     color: hsl(0, 36%, 70%);
@@ -71,7 +71,7 @@ html, body {
   }
   
   .card-left p {
-    font-size: 22px;
+    font-size: 20px;
     max-width: 100%;
     text-align: left;
     color: hsl(0, 36%, 70%);
@@ -80,4 +80,18 @@ html, body {
     margin-top: 20px;
     margin-bottom: 30px;
   }
-  
+  .card-right {
+    width: 60%;
+    height: 100vh;
+    position: relative;
+}
+
+.card-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
