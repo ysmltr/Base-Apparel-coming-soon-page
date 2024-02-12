@@ -102,7 +102,7 @@ html, body {
   position: relative;
 }
 
-.e-mail-group #input{
+.e-mail-group #Email{
   border: 1px solid var(--red-light);
   border-radius: 2rem;
   color: var(--red-light);
