@@ -2,51 +2,38 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Base Apparel coming soon page</title>
   <link rel="stylesheet" href="./src/css/style.css">
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-      <main>
-       
-          <header class="header">
-            <img src="./images/logo.svg" alt="logo" class="logo">
-          </header>
-          <section class="container">
-            <div class="card-left">
-              <h1 class="title">We're <br> <span> coming <br> soon</span></h1>
-
-              <p> Hello fellow shoppers! We're currently building our new <br> fashion store.
-                Add your email below to stay up-to-date with <br> announcements and our launch deals.</p>
-      
-              <form class="form" action="#">
-                <div class="e-mail-group">
-                <input id="Email" name='Email' id="Email" value="" type="email" placeholder="Email Address">
-               <img src="./images/icon-error.svg" id="error-icon" alt="error-icon">
-                <button id="submit" type="button"><img src="./images/icon-arrow.svg" alt="arrow-icon"></button>
-              </div>
-                <!--<p class="error">Please provide a valid email</p>
-                <p class="sucess">Sent with success</p> -->
-              </form>
-            </div>
-            <div class="card-right">
-             <img src="./images/hero-desktop.jpg" alt="hero-pic">
-            </div>
-      
-          </section>
-        </main>
-  
-
-
-      <script src="./src/js/index.js"></script>
+  <main>
+    <header class="header">
+      <img src="./images/logo.svg" alt="logo" class="logo">
+    </header>
+    <section class="container">
+      <div class="card-left">
+        <h1 class="title">We're <br> <span> coming <br> soon</span></h1>
+        <p> Hello fellow shoppers! We're currently building our new<br> fashion store.
+            Add your email below to stay up-to-date with <br> announcements and our launch deals.</p>
+        <form class="form" action="#">
+          <div class="e-mail-group">
+            <input type="email" id="Email" name="Email" placeholder="Email Address">
+            <img src="./images/icon-error.svg" id="error-icon" alt="error-icon" style="display:none;">
+            <button id="submit" type="button">
+              <img src="./images/icon-arrow.svg" alt="arrow-icon">
+            </button>
+          </div>
+          <p id="message"></p>
+        </form>
+      </div>
+      <div class="card-right">
+        <img src="./images/hero-desktop.jpg" alt="hero-pic">
+      </div>
+    </section>
+  </main>
+  <script src="./src/js/index.js"></script>
 </body>
 </html>
