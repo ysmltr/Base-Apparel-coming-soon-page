@@ -108,7 +108,7 @@ html, body {
   color: var(--red-light);
   padding: 0.2rem 1.5rem;
   height: 100%;
-  width: 70%;
+  width: 50%;
 }
 
 input::placeholder {
@@ -134,23 +134,8 @@ button:focus {
 
 
 
-.error {
-  color: var(--red) !important;
-  margin: 0;
-  margin-top: 0.5rem !important;
-  margin-left: 1rem;
-  text-align: left;
-}
 
-.sucess {
-  color: #44d838 !important;
-  margin: 0;
-  margin-top: 0.5rem !important;
-  margin-left: 1rem;
-  text-align: left;
-}
-
-.error-icon {
+#error-icon {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
